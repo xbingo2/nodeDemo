@@ -9,7 +9,6 @@ function Hello() {
     this.sayHello = function() {
         console.log('Hello ' + name);
     };
-    console.log(123123);
 };
 
 module.exports = Hello;
