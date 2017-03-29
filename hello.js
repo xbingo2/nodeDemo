@@ -9,5 +9,7 @@ function Hello() {
     this.sayHello = function() {
         console.log('Hello ' + name);
     };
+    console.log(123);
 };
+
 module.exports = Hello;
